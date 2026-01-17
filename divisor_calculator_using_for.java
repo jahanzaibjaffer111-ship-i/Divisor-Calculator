@@ -27,10 +27,10 @@ public class divisor_calculator_using_for
             else if(a>0)
             {
                 System.out.println("divisors are");
-                for(int i=b; b<=a; b++)
-                    if(a%b==0)
+                for(int i=b; i<=a; i++)
+                    if(a%i==0)
                     {
-                        System.out.println(b);
+                        System.out.println(i);
                     }
 
                 System.out.println("Thanks");
@@ -39,4 +39,5 @@ public class divisor_calculator_using_for
             }
         }
     }
+
 }
