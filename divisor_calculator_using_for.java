@@ -27,7 +27,7 @@ public class divisor_calculator_using_for
             else if(a>0)
             {
                 System.out.println("Divisors are");
-                for(int i=b; i>=a; i++)
+                for(int i=b; i<=a; i++)
                     if(a%i==0)
                     {
                         System.out.println(i);
@@ -41,5 +41,6 @@ public class divisor_calculator_using_for
     }
 
 }
+
 
 
