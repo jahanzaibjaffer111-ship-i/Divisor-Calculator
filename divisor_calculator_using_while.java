@@ -11,24 +11,24 @@ public class divisor_calculator_using_while
         {
             b=1;
             System.out.println("Hello");
-            System.out.println("welcome to divisor calc");
-            System.out.println("type value");
+            System.out.println("Welcome to Divisor Calculator");
+            System.out.println("Type a Value");
             a=read.nextInt();
             if(a==0)
             {
-                System.out.println("value cant be zero");
-                System.out.println("try again");
+                System.out.println("Value can't be zero");
+                System.out.println("Try again");
                 System.out.println(".");
             }
             else if(a<0)
             {
-                System.out.println("value cant be negative");
-                System.out.println("try again");
+                System.out.println("Value can't be negative");
+                System.out.println("Try again");
                 System.out.println(".");
             }
             else if (a>0)
             {
-                System.out.println("values are");
+                System.out.println("Divisors are");
                 while(a>=b)
                 {
                     if(a % b == 0)
@@ -37,10 +37,11 @@ public class divisor_calculator_using_while
                     }
                     b++;
                 }
-                System.out.println("thanks");
-                System.out.println("bye");
+                System.out.println("Thank you");
+                System.out.println("Bye");
                 System.out.println(".");   
             }
         }
     }
+
 }
