@@ -7,37 +7,38 @@ public class divisor_calculator_using_for
         Scanner read=new Scanner(System.in);
         while(true)
         {
-            System.out.println("hello");
-            System.out.println("welcome to divisor calc");
-            System.out.println("type value");
+            System.out.println("Hello");
+            System.out.println("Welcome to Divisor Calculator");
+            System.out.println("Type a Value");
             a=read.nextInt();
             b=1;
             if(a==0)
             {
-                System.out.println("value cant be negative");
-                System.out.println("try again");
+                System.out.println("value can't be zero");
+                System.out.println("Try again");
                 System.out.println(".");
             }
             else if(a<0)
             {
-                System.out.println("value cant be zero");
-                System.out.println("try again");
+                System.out.println("value can't be negative");
+                System.out.println("Try again");
                 System.out.println(".");
             }
             else if(a>0)
             {
-                System.out.println("divisors are");
+                System.out.println("Divisors are");
                 for(int i=b; i<=a; i++)
                     if(a%i==0)
                     {
                         System.out.println(i);
                     }
 
-                System.out.println("Thanks");
-                System.out.println("bye");
+                System.out.println("Thank you");
+                System.out.println("Bye");
                 System.out.println(".");
             }
         }
     }
 
 }
+
